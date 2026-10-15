@@ -1,0 +1,9 @@
+{
+  "source": "apify",
+  "query": "small business owners describing repeated order tracking problems",
+  "niche": "small business operations",
+  "language": "en",
+  "region": "global",
+  "resultLimit": 10,
+  "maxCost": 0
+}
