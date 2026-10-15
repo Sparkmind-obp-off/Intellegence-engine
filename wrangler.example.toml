@@ -1,0 +1,19 @@
+name = "intelligence-engine-api"
+main = "apps/api/src/index.ts"
+compatibility_date = "2026-10-15"
+
+[vars]
+APP_ENV = "local"
+ALLOWED_ORIGINS = "http://localhost:5173"
+APIFY_ENABLED = "false"
+LLM_PROVIDER = "none"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "intelligence-engine-local"
+database_id = "REPLACE_WITH_ENVIRONMENT_DATABASE_ID"
+migrations_dir = "migrations"
+
+# Add R2 or Queue only when implementation requires them.
+# Set secrets with: wrangler secret put APIFY_API_TOKEN
+# Never put tokens or model keys in this file.
