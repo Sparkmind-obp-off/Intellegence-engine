@@ -1,0 +1,5 @@
+# Copy to .dev.vars for local development. Use test credentials only.
+# Never commit actual secret values.
+API_KEY_PEPPER=replace-with-local-random-value
+APIFY_API_TOKEN=
+LLM_API_KEY=
